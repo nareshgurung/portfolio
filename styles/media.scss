@@ -1,0 +1,18 @@
+.media {
+    width: 10%;
+    height: 100%;
+    background-color: #999;
+    position: absolute;
+    &-box {
+        border: 1px solid #ccc;
+        position: relative;
+    }
+    p {
+        top: calc(50% - 12px);
+        left: calc(50% - 26px);
+        position: absolute;
+    }
+    &-content {
+        margin-left: calc(10% + 20px);
+    }
+}

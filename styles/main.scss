@@ -1,0 +1,48 @@
+@import "global.scss";
+@import "button.scss";
+@import "media.scss";
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    text-align: center;
+    color: red;
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+
+.box {
+    width: calc(400px - 10px);
+    box-shadow: 1px 1px 1px #ddd;
+    margin: 5px;
+    margin-right: 7px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+    &-content {
+        padding: 12px;
+        padding-bottom: 0;
+        height: 100px;
+    }
+    
+    &-thumb {
+        text-align: center;
+        line-height: 100px;
+        vertical-align: middle;
+        background-color: #999;
+    }
+    
+    &-footer {
+        margin-top: 15px;
+    }
+}
