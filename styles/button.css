@@ -1,7 +1,6 @@
 .btn-green {
   background-color: green;
   color: white;
-  font-size: 18px;
 }
 
 .btn-red {
@@ -24,14 +23,16 @@
   font-size: 12px;
 }
 
-.btn:hover {
+.btn-small:hover {
   background-color: #ccc;
   cursor: pointer;
 }
 
 .btn-small {
-  font-size: 12px;
-  padding: 4px 16px;
+  padding: 10px 25px;
+  font-size: 6px;
+  border-radius: 5px;
+
 }
 
 .btn-medium {
@@ -59,4 +60,9 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+.center { 
+    margin: 0;
+    text-align: center;
+  }
+
 /*# sourceMappingURL=button.css.map */
